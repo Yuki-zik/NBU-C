@@ -39,11 +39,11 @@ void displayMenu() {
 }
 
 int main() {
-    // 设置中文支持
+        // 设置中文支持
     SetConsoleOutputCP(65001);  // 设置控制台输出代码页为UTF-8
     SetConsoleCP(65001);        // 设置控制台输入代码页为UTF-8
     setlocale(LC_ALL, "zh_CN.UTF-8");  // 设置本地化
-    
+
     int choice;
     
     // 尝试从文件加载数据

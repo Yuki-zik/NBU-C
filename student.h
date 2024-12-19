@@ -7,6 +7,7 @@
 #include <locale.h>
 #include <windows.h>
 #include <conio.h>
+#include <ctype.h>
 
 // ANSI转义序列定义
 #define NO "\033[0m"      // 重置所有属性
@@ -44,7 +45,7 @@ void initializeData();                 // 初始化示例数据
 
 // 基础功能函数声明
 void inputStudent();                   // 1.输入学生信息
-void displayAllStudents();             // 2.显��学生信息
+void displayAllStudents();             // 2.显示学生信息
 void searchById();                     // 3.按学号查找
 void displayHighestInCourse();         // 4.显示课程最高分
 void displayHighestTotal();            // 5.显示总分最高
@@ -66,6 +67,7 @@ void calculateTotal(Student* student);  // 计算总分
 void displayStudent(Student* student);  // 显示单个学生信息
 void displayMenu();                    // 显示菜单
 int compareStudents(const void* a, const void* b);  // 比较函数
+void displayHighlightedName(const char* name, const char* highlight);  // 高亮显示姓名
 
 // 添加函数声明
 void initializeTestData();
