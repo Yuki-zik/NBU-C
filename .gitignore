@@ -1,0 +1,17 @@
+# 编译生成的文件
+*.exe
+*.o
+*.obj
+
+# 数据文件
+*.dat
+
+# IDE配置文件
+.vscode/
+.vs/
+*.suo
+*.user
+
+# 系统文件
+.DS_Store
+Thumbs.db 
