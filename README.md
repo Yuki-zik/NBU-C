@@ -97,3 +97,7 @@ gcc -o student_system main.c student.c init_data.c -Wall -fexec-charset=UTF-8 -f
 - 课程：C语言程序设计
 - 作者：马千里
 - 日期：2024年12月
+
+## 致谢
+本项目参考了以下开源项目：
+- [stuman](https://github.com/zetaloop/stuman) - 提供了界面设计的灵感
